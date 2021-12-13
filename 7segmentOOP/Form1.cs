@@ -67,18 +67,7 @@ namespace _7segmentOOP
                 hour01 = int.Parse(sthrs[1].ToString());
             }
 
-
-            if (stss.Length == 1)
-            {
-                seconds10 = 0;
-                seconds01 = int.Parse(stss);
-            }
-            else if (stss.Length == 2)
-            {
-                seconds10 = int.Parse(stss[0].ToString());
-                seconds01 = int.Parse(stss[1].ToString());
-            }
-
+            
             if (stmn.Length == 1)
             {
                 minute10 = 0;
@@ -88,6 +77,16 @@ namespace _7segmentOOP
             {
                 minute10 = int.Parse(stmn[0].ToString());
                 minute01 = int.Parse(stmn[1].ToString());
+            }
+            if (stss.Length == 1)
+            {
+                seconds10 = 0;
+                seconds01 = int.Parse(stss);
+            }
+            else if (stss.Length == 2)
+            {
+                seconds10 = int.Parse(stss[0].ToString());
+                seconds01 = int.Parse(stss[1].ToString());
             }
 
 
