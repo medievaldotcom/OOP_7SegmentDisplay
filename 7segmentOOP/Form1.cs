@@ -67,6 +67,20 @@ namespace _7segmentOOP
                 hour01 = int.Parse(sthrs[1].ToString());
             }
 
+
+            if (stmn.Length == 1)
+            {
+                minute10 = 0;
+                minute01 = int.Parse(stmn);
+            }
+            else if (stmn.Length == 2)
+            {
+                minute10 = int.Parse(stmn[0].ToString());
+                minute01 = int.Parse(stmn[1].ToString());
+            }
+
+
+
             sevensegemnts(hour10, ref hh1, ref hh2, ref hh3, ref hh4, ref hh5, ref hh6, ref hh7);
             sevensegemnts(hour01, ref h1, ref h2, ref h3, ref h4, ref h5, ref h6, ref h7);
             sevensegemnts(minute10, ref mm1, ref mm2, ref mm3, ref mm4, ref mm5, ref mm6, ref mm7);
