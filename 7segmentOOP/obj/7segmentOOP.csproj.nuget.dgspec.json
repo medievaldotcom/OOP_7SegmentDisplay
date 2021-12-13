@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\Repository\\7segmentOOP\\7segmentOOP\\7segmentOOP.csproj": {}
+    "D:\\Github\\Repository\\7segmentOOP\\OOP_7SegmentDisplay\\7segmentOOP\\7segmentOOP.csproj": {}
   },
   "projects": {
-    "D:\\Github\\Repository\\7segmentOOP\\7segmentOOP\\7segmentOOP.csproj": {
+    "D:\\Github\\Repository\\7segmentOOP\\OOP_7SegmentDisplay\\7segmentOOP\\7segmentOOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\Repository\\7segmentOOP\\7segmentOOP\\7segmentOOP.csproj",
+        "projectUniqueName": "D:\\Github\\Repository\\7segmentOOP\\OOP_7SegmentDisplay\\7segmentOOP\\7segmentOOP.csproj",
         "projectName": "7segmentOOP",
-        "projectPath": "D:\\Github\\Repository\\7segmentOOP\\7segmentOOP\\7segmentOOP.csproj",
+        "projectPath": "D:\\Github\\Repository\\7segmentOOP\\OOP_7SegmentDisplay\\7segmentOOP\\7segmentOOP.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\Repository\\7segmentOOP\\7segmentOOP\\obj\\",
+        "outputPath": "D:\\Github\\Repository\\7segmentOOP\\OOP_7SegmentDisplay\\7segmentOOP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
