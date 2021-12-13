@@ -68,6 +68,17 @@ namespace _7segmentOOP
             }
 
 
+            if (stss.Length == 1)
+            {
+                seconds10 = 0;
+                seconds01 = int.Parse(stss);
+            }
+            else if (stss.Length == 2)
+            {
+                seconds10 = int.Parse(stss[0].ToString());
+                seconds01 = int.Parse(stss[1].ToString());
+            }
+
             if (stmn.Length == 1)
             {
                 minute10 = 0;
